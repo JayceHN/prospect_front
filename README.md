@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bcfdv
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# prospect_front
+test
+>>>>>>> 49af4158f389d9ced2c21d5eb52d37dff405f55c
