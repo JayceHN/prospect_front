@@ -1,0 +1,24 @@
+
+<form [formGroup]= "form" (ngSubmit)="onSubmit(form.value)">
+  <mat-form-field>
+    <mat-select  matInput placeholder="From" formControlName="from">
+      <mat-option *ngFor="let city of cities" [value]="city.name">
+        {{city.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-select matInput placeholder="To" formControlName="to">
+      <mat-option *ngFor="let city of cities" [value]="city.name">
+        {{city.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <button mat-button class="button" type="submit">Compute</button>
+
+
+</form>
+
+<mat-card *ngIf="result">{{result}}</mat-card>
